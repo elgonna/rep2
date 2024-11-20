@@ -9,11 +9,11 @@ def somma(l1:float,l2:float):
 
 def main():
     st.text('Ciao questo front-end funziona')
-    num1 = st.slider('Quanto è frocio bolletta da 1 a 100', 0, 100, 25)
-    num2 = st.slider('Quanto è frocio ricca da 1 a 100', 0, 100, 30)
+    num1 = st.slider('1', 0, 100, 25)
+    num2 = st.slider('1', 0, 100, 30)
     r = somma(num1,num2)
 
-    st.write('livello di omossesualità', r)
+    st.write('2', r)
 
 if __name__ == '__main__':
     main()
